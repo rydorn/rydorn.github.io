@@ -2,12 +2,12 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "李雷的博客",
+    url: "https://www.google.com/",
+    title: "randoman's blog",
     description: "一个分享技术和生活的博客",
-    author: "Lei Li",
-    profile: "https://satna.ing",
-    ogImage: "default-og.jpg",
+    author: "randoman",
+    profile: "https://www.google.com",
+    ogImage: "",
     lang: "zh-CN",
     timezone: "Asia/Hong_Kong",
     dir: "ltr",
@@ -24,15 +24,15 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
+      url: "https://github.com/rydorn/rydorn.github.io/edit/main/",
     },
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "github",   url: "https://github.com/rydorn" },
+    { name: "x",        url: "https://x.com/" },
+    { name: "linkedin", url: "https://www.linkedin.com/" },
+    { name: "mail",     url: "mailto:3081178@gmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
